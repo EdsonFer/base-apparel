@@ -5,10 +5,12 @@
 - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
 - Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%) */
 /* Default fonts */
+/* line 17, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 :root {
   font-size: 16px;
 }
 
+/* line 27, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +18,7 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+/* line 34, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 body {
   max-width: 1440px;
   height: 100vh;
@@ -23,6 +26,7 @@ body {
   background-color: rgba(206, 151, 151, 0.2);
 }
 
+/* line 41, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container {
   height: 100%;
   padding: 20px;
@@ -33,29 +37,35 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* line 41, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
   .container {
     grid-template-columns: 1fr;
-    grid-template-areas: "container__image" "container__content";
+    grid-template-areas: "container__image"
+ "container__content";
     text-align: center;
   }
 }
 
+/* line 57, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__content {
   grid-area: container__content;
   width: 80%;
 }
 
 @media (max-width: 768px) {
+  /* line 57, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
   .container__content {
     width: 100%;
   }
 }
 
+/* line 66, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__logo {
   margin: 5em 0px 7em 2em;
   position: absolute;
 }
 
+/* line 71, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__title {
   font-size: 4em;
   letter-spacing: 25px;
@@ -64,11 +74,13 @@ body {
   margin-bottom: 0.5em;
 }
 
+/* line 78, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__title > span {
   font-weight: 300;
   color: rgba(206, 151, 151, 0.8);
 }
 
+/* line 84, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__p {
   font-size: 20px;
   line-height: 1.5em;
@@ -76,6 +88,7 @@ body {
   margin-bottom: 3em;
 }
 
+/* line 91, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__input-with-icon {
   position: relative;
   display: flex;
@@ -83,12 +96,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* line 91, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
   .container__input-with-icon {
     width: 75%;
     margin: 0 auto;
   }
 }
 
+/* line 102, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__input {
   outline: 0;
   border: 2px solid rgba(206, 151, 151, 0.8);
@@ -99,40 +114,48 @@ body {
   font-size: 18px;
 }
 
+/* line 111, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__input::placeholder {
   font-weight: 600;
   font-size: 18px;
   color: rgba(206, 151, 151, 0.8);
 }
 
+/* line 117, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__input.error--hide {
   border: 2px solid #f96262;
 }
 
+/* line 121, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__input__error {
   color: #f96262;
   margin: 20px;
   visibility: hidden;
 }
 
+/* line 126, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__input__error.error--hide {
   visibility: visible;
 }
 
+/* line 132, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__btn-with-icon {
   position: absolute;
   width: 35%;
   right: 2em;
 }
 
+/* line 138, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__icon {
   visibility: hidden;
 }
 
+/* line 141, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__icon.error--hide {
   visibility: visible;
 }
 
+/* line 146, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container .btn {
   background: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   cursor: pointer;
@@ -144,11 +167,13 @@ body {
   right: 1px;
 }
 
+/* line 156, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container .btn:hover {
   transform: scale(1.1, 1.1);
   box-shadow: 0px 15px 20px #f8bfbf;
 }
 
+/* line 162, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
 .container__image {
   background-image: url("../images/hero-desktop.jpg");
   background-repeat: no-repeat;
@@ -157,6 +182,7 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* line 162, ../../Desktop/base-apparel-coming-soon-master/sass/style.scss */
   .container__image {
     background-image: url("../images/hero-mobile.jpg");
     background-size: contain;
@@ -165,3 +191,5 @@ body {
     margin-bottom: -20em;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
